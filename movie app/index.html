@@ -1,0 +1,140 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Search Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- font awesome icons cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="nav">
+      <h1>Movi <span class="yello">Corn.</span></h1>
+    </nav>
+    <!-- <header class="user-inp">
+      <p>Search Movie :</p>
+      <div class="user-inp">
+        <input
+          type="text"
+          placeholder="search movies here..."
+          class="movie-name"
+        />
+        <button type="submit" class="submit-search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <div class="con2">
+          <a href="#">
+            <div class="sugesion">
+              <div class="sug-img">
+                <img src="./download.jfif" height="60" width="60" alt="" />
+              </div>
+              <div class="sug-his">
+                <h3 class="tittle">avatar</h3>
+                <p class="year-movie">2003</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </header> -->
+    <header class="user-inp-container">
+      <p class="searchbox">Search Movie :</p>
+      <input
+        type="text"
+        class="movie-name"
+        onkeyup="findmovies()"
+        onclick="findmovies()"
+        placeholder="search movies here"
+      />
+      <button type="submit" class="submit-search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+      <div class="inp-container">
+        <div class="con2">
+          <!-- <a href="#">
+            <div class="sugesion">
+              <div class="sug-img">
+                <img src="./download.jfif" height="60" width="60" alt="" />
+              </div>
+              <div class="sug-his">
+                <h3 class="tittle">avatar</h3>
+                <p class="year-movie">2003</p>
+              </div>
+            </div>
+          </a> -->
+        </div>
+      </div>
+    </header>
+
+    <div class="content">
+      <div class="con1">
+        <!-- <div class="user-fun"> -->
+        <!-- <p>😃 start by searching for a movies! Have fun!</p> -->
+        <!-- </div> -->
+        <!-- spinner -->
+        <!-- <div class="spiner">
+          <img
+            src="./spiner-image-removebg-preview.png"
+            alt=""
+            class="spiner-img"
+          />
+        </div> -->
+        <!-- <div class="movie-img">
+          <img src="./download.jfif" alt="" class="img" />
+        </div>
+        <div class="m-his">
+          <h1 class="m-title">Avatar</h1>
+          <p>
+            Year: <span class="year">2009</span>
+            <span class="rating">Ratings: PG-13</span> Released:
+            <span class="m-relese">15 Dec 2009</span>
+          </p>
+          <p class="side">
+            <strong> Genre:</strong>
+            <span class="gener res">Action,AAdventure,Fantasy</span>
+          </p>
+          <p class="side">
+            <strong>Writer:</strong>
+            <span class="writer res">Jamas Camern</span>
+          </p>
+          <p class="side">
+            <strong>Actors:</strong>
+            <span class="actors res">Sam Worthington</span>
+          </p>
+          <p class="side">
+            <strong> Plot:</strong>
+            <span class="plot res">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit
+              corporis consectetur eveniet harum quasi recusandae eaque aperiam,
+              alias eius officiis.
+            </span>
+          </p>
+          <p class="language">
+            <strong> Language:</strong>
+            <span class="languages">English,Spain</span>
+          </p>
+          <p>
+            won <span class="oscar">3</span> Oscars. 89 Wins & 131 nomination
+            total
+          </p>
+        </div> -->
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
